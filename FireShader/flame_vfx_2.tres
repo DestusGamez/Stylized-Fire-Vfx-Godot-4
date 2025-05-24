@@ -76,7 +76,7 @@ render_mode blend_mix, depth_draw_never, cull_disabled, diffuse_lambert, specula
 uniform sampler2D Texture;
 uniform vec2 Speed = vec2(0.100000, 0.500000);
 uniform sampler2D tex_frg_2;
-uniform float DissoveAmount = 2;
+uniform float DissoveAmount = 2.0;
 uniform vec4 Color : source_color = vec4(0.640834, 0.000000, 0.269772, 1.000000);
 
 
@@ -157,7 +157,6 @@ void fragment() {
 
 }
 "
-graph_offset = Vector2(-562.556, -60.8725)
 modes/depth_draw = 2
 modes/cull = 2
 flags/unshaded = true
