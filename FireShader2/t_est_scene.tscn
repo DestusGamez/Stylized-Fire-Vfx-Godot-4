@@ -6,10 +6,10 @@
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_7qrpr"]
 render_priority = 0
 shader = ExtResource("1_cctve")
+shader_parameter/Texture = ExtResource("2_n1ljf")
 shader_parameter/Speed = Vector2(0.1, 0.5)
 shader_parameter/DissoveAmount = 2.0
 shader_parameter/Color = Color(0.835294, 0.337255, 0.0117647, 1)
-shader_parameter/Texture = ExtResource("2_n1ljf")
 
 [sub_resource type="QuadMesh" id="QuadMesh_2j8cu"]
 
